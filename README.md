@@ -38,17 +38,16 @@ The project runs an interactive sequence of terminal messages that simulate a ha
 
 - **Background Change:** After the messages are finished, the page clears, and a new background image (styled like a **"matrix-hacker"** environment) is displayed with a final message saying **"Thank you for your Data."**
 
-Project Structure
-bash
-Copy
-Edit
-HackPuff/
-│
-├── index.html        # Main HTML file
-├── style.css         # Custom styles for the terminal
-├── script.js         # JavaScript file to handle message flow, animations, and sounds
-├── matrix-hacker-background.jpg  # Background image used after the hack
-├── little-alien-142498.mp3        # Sound effect for the "Cleaning up..." message
+## Project Structure:
+
+    HackPuff/
+    │
+    ├── index.html        # Main HTML file
+    ├── style.css         # Custom styles for the terminal
+    ├── script.js         # JavaScript file to handle message flow, animations, and sounds
+    ├── matrix-hacker-background.jpg  # Background image used after the hack
+    ├── little-alien-142498.mp3        # Sound effect for the "Cleaning up..." message
+
 Code Explanation
 addItem Function: Adds a message to the screen, applying random colors and animation based on the message.
 
