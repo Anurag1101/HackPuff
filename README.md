@@ -4,11 +4,11 @@
 
 ## Features:
 
-- **Interactive Terminal:** Displays various stages of a hack simulation in real-time, with messages like "Initializing HackPuff..." and "Reading your Files..."
+- **Interactive Terminal:** Displays various stages of a hack simulation in real-time, with messages like **"Initializing HackPuff..."** and **"Reading your Files..."**
   
 - **Animated Text:** Messages appear with random colors and are animated for a more immersive experience.
 
-- **Sound Effects:** Adds sound effects when certain messages (like "Cleaning up...") are displayed to enhance the atmosphere.
+- **Sound Effects:** Adds sound effects when certain messages (like **"Cleaning up..."**) are displayed to enhance the atmosphere.
 
 - **Dynamic Backgrounds:** Changes the background image after the hack sequence, making it look like the "hack" was completed.
 
