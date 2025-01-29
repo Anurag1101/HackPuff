@@ -2,12 +2,18 @@
 
 **HackPuff** is a fun, interactive terminal simulation that mimics a fictional data-hacking sequence. This project creates a visually engaging, dynamic **"hacking"** experience with colorfully animated messages, random delays, and background transitions. It uses `HTML`, `CSS`, and `JavaScript` to simulate the feeling of a terminal running a hack sequence.
 
-Features
-Interactive Terminal: Displays various stages of a hack simulation in real-time, with messages like "Initializing HackPuff..." and "Reading your Files..."
-Animated Text: Messages appear with random colors and are animated for a more immersive experience.
-Sound Effects: Adds sound effects when certain messages (like "Cleaning up...") are displayed to enhance the atmosphere.
-Dynamic Backgrounds: Changes the background image after the hack sequence, making it look like the "hack" was completed.
-Responsive Design: Optimized for desktop, tablet, and mobile views to ensure a smooth user experience on different devices.
+## Features:
+
+- Interactive Terminal: Displays various stages of a hack simulation in real-time, with messages like "Initializing HackPuff..." and "Reading your Files..."
+  
+- Animated Text: Messages appear with random colors and are animated for a more immersive experience.
+
+- Sound Effects: Adds sound effects when certain messages (like "Cleaning up...") are displayed to enhance the atmosphere.
+
+- Dynamic Backgrounds: Changes the background image after the hack sequence, making it look like the "hack" was completed.
+
+- Responsive Design: Optimized for desktop, tablet, and mobile views to ensure a smooth user experience on different devices.
+
 Installation
 Clone the repository:
 
