@@ -14,20 +14,17 @@
 
 - **Responsive Design:** Optimized for desktop, tablet, and mobile views to ensure a smooth user experience on different devices.
 
-Installation
-Clone the repository:
+## Installation:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/HackPuff.git
-Navigate to the project directory:
+### Clone the repository:
 
-bash
-Copy
-Edit
-cd HackPuff
-Open the index.html file in your web browser to see the simulation in action.
+    git clone https://github.com/your-username/HackPuff.git
+
+### Navigate to the project directory:
+
+    cd HackPuff
+    
+### Open the `index.html` file in your web browser to see the simulation in action.
 
 How It Works
 The project runs an interactive sequence of terminal messages that simulate a hacking attempt. Here's how the flow is designed:
