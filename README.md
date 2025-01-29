@@ -30,12 +30,13 @@
 
 The project runs an interactive sequence of terminal messages that simulate a hacking attempt. Here's how the flow is designed:
 
-- Message Display: As soon as the user clicks the "Start" button, a series of messages are displayed, each message randomly colored and animated for extra emphasis.
+- **Message Display:** As soon as the user clicks the **"Start"** button, a series of messages are displayed, each message randomly colored and animated for extra emphasis.
 
-- Random Delays: To mimic the unpredictability of a hack, random delays are added between each message using JavaScript.
+- **Random Delays:** To mimic the unpredictability of a hack, random delays are added between each message using JavaScript.
 
-- Sound Effect: When the message "Cleaning up..." appears, a sound effect is triggered to make the cleanup process feel more realistic.
-- Background Change: After the messages are finished, the page clears, and a new background image (styled like a "matrix-hacker" environment) is displayed with a final message saying "Thank you for your Data."
+- **Sound Effect:** When the message **"Cleaning up..."** appears, a sound effect is triggered to make the cleanup process feel more realistic.
+
+- **Background Change:** After the messages are finished, the page clears, and a new background image (styled like a **"matrix-hacker"** environment) is displayed with a final message saying **"Thank you for your Data."**
 
 Project Structure
 bash
