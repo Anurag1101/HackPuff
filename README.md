@@ -71,12 +71,18 @@ The project runs an interactive sequence of terminal messages that simulate a ha
 
     document.querySelector(".glow-on-hover").addEventListener("click", () => { ... });
     
-Usage
-Click the "Start" button to begin the simulation.
-Watch as messages pop up with randomized colors and animations.
-Enjoy the sound effects and background transition once the sequence finishes.
-Contributing
+## Usage:
+
+- Click the **"Start"** button to begin the simulation.
+
+- Watch as messages pop up with randomized colors and animations.
+
+- Enjoy the sound effects and background transition once the sequence finishes.
+
+## Contributing:
+
 Feel free to fork this project and submit pull requests if you'd like to contribute. Improvements are always welcome!
 
-License
-This project is open-source and available under the MIT License.
+## License:
+
+This project is open-source and available under the `MIT` License.
