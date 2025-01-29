@@ -48,38 +48,29 @@ The project runs an interactive sequence of terminal messages that simulate a ha
     ├── matrix-hacker-background.jpg  # Background image used after the hack
     ├── little-alien-142498.mp3        # Sound effect for the "Cleaning up..." message
 
-Code Explanation
-addItem Function: Adds a message to the screen, applying random colors and animation based on the message.
+## Code Explanation:
 
-javascript
-Copy
-Edit
-const addItem = async (item) => { ... }
-randomDelay Function: Creates a random delay between messages to simulate the unpredictable nature of the hack.
+**addItem Function:**  Adds a message to the screen, applying random colors and animation based on the message.
 
-javascript
-Copy
-Edit
-const randomDelay = () => { ... }
-main Function: Controls the flow of the simulation by displaying each message in sequence, playing sounds, and changing the background once the "hack" is complete.
+    const addItem = async (item) => { ... }
 
-javascript
-Copy
-Edit
-async function main() { ... }
-Sound Effect: A sound effect is triggered when the "Cleaning up..." message is displayed to enhance the simulation.
+**randomDelay Function:**  Creates a random delay between messages to simulate the unpredictable nature of the hack.
 
-javascript
-Copy
-Edit
-const cleanupSound = new Audio("little-alien-142498.mp3"); 
-cleanupSound.play();
-Button Click Listener: Prevents multiple clicks and triggers the start of the simulation when the user clicks the "Start" button.
+    const randomDelay = () => { ... }
 
-javascript
-Copy
-Edit
-document.querySelector(".glow-on-hover").addEventListener("click", () => { ... });
+**main Function:**  Controls the flow of the simulation by displaying each message in sequence, playing sounds, and changing the background once the "hack" is complete.
+
+    async function main() { ... }
+
+**Sound Effect:** A sound effect is triggered when the "Cleaning up..." message is displayed to enhance the simulation.
+
+    const cleanupSound = new Audio("little-alien-142498.mp3"); 
+    cleanupSound.play();
+
+**Button Click Listener:**  Prevents multiple clicks and triggers the start of the simulation when the user clicks the "Start" button.
+
+    document.querySelector(".glow-on-hover").addEventListener("click", () => { ... });
+    
 Usage
 Click the "Start" button to begin the simulation.
 Watch as messages pop up with randomized colors and animations.
